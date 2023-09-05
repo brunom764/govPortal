@@ -7,17 +7,30 @@ export enum Sections {
 }
 
 export type ValuesType = {
-    state: States
-    year: Years
+    state: States | string
+    year: Years | string
+    data: dataValues[]
+}
+
+export type dataValues = {
     section: Sections
-    expansesCommitted: number
+    expanseCommitted: number
     expensePaied: number
 }
 
 export const values: ValuesType[] = [{
     state: States.AC,
     year: Years.Dezoito,
-    section: Sections.saude,
-    expansesCommitted: 0,
-    expensePaied: 0,
-},]
+    data: [{
+        section: Sections.saude,
+        expanseCommitted: 10,
+        expensePaied: 0,
+        },{
+        section: Sections.assistenciaSocial,
+        expanseCommitted: 20,
+        expensePaied: 0
+    },{
+        section: Sections.previdenciaSocial,
+        expanseCommitted: 30,
+        expensePaied: 0}]
+    },]
