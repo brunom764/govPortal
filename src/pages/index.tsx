@@ -1,23 +1,26 @@
-
 import Result from '@/components/Results'
 import CalculatorForm, { FormValues} from '@/components/calculatorForm'
+import { States, Years } from '@/utils/enums'
 import { Box, Heading } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 
 
 export default function Home() {
-  const [dataInfo, setDataInfo] = useState<FormValues | null>(null)
+  const [dataInfo, setDataInfo] = useState<FormValues>({state: States.AC, year: Years.Dezoito})
   const onSubmitSuccessfully = (data: FormValues) => {
     setDataInfo(data);
   }
+
+  useEffect (() => {
+    console.log(dataInfo)
+  }, [dataInfo])
 
   return (
     <Box minH="100vh" backgroundColor="#053B50" p={8}>
       <Heading fontSize="5rem" color="#64CCC5" className='text-center' fontFamily="sans-serif">
         govPortal
       </Heading>
-      <CalculatorForm onSubmitSuccessfully={onSubmitSuccessfully} />
-      {dataInfo && <Result data={dataInfo} />}
+      <CalculatorForm onSubmitSuccessfully={onSubmitSuccessfully} dataInfo={dataInfo} setDataInfo={setDataInfo} />
     </Box>
   )
 }
