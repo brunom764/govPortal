@@ -13,33 +13,34 @@ export default function Result({data}: {data: FormValues}){
 
     return (
         <Box>
-        <h1 className="text-center py-8 text-3xl">Resultado no ano {data.year} no {data.state}</h1>
+        <h1 className="text-center py-8 text-3xl">Resultado no ano de {data.year} no {data.state}</h1>
         <Flex justify="space-around" wrap="wrap">
         <Box borderWidth={1} p={32} m={2} backgroundColor="#EEEEEE">
             <Text color="#176B87" as="h2" className="text-center pb-2 text-xl">Saúde</Text>
                 <Text as="p" color="#176B87" p={2}>
-                Despesas empenhadas: <b>R$ {filteredResults[0]?.data[0].expanseCommitted.toFixed(2) || 0}</b>
+                Despesas empenhadas: <b>{filteredResults[0]?.data[0].expanseCommitted.toFixed(2) || 0} Reais</b>
                 </Text>
                 <Text as="p" color="#176B87" p={2}>
-                Despesas gastas: <b>R$ {filteredResults[0]?.data[1].expensePaid.toFixed(2) || 0}</b>
+                Despesas gastas: <b>{filteredResults[0]?.data[1].expensePaid.toFixed(2) || 0} Reais</b>
                 </Text>
             </Box>
             <Box borderWidth={1} p={32} m={2} backgroundColor="#EEEEEE">
                 <Text color="#176B87" as="h2" className="text-center pb-2 text-xl">Assistência social</Text>
                 <Text as="p" color="#176B87" p={2}>
-                    Despesas empenhadas: <b>R$ {filteredResults[0]?.data[1].expanseCommitted.toFixed(2) || 0}</b>
+                    Despesas empenhadas: <b>{filteredResults[0]?.data[1].expanseCommitted.toFixed(2) || 0} Reais</b>
                 </Text>
                 <Text as="p" color="#176B87" p={2}>
-                    Despesas gastas: <b>R$ {filteredResults[0]?.data[1].expensePaid.toFixed(2) || 0}</b>
+                    Despesas gastas: <b>{filteredResults[0]?.data[1].expensePaid.toFixed(2) || 0} Reais</b>
                     </Text>
             </Box>
             <Box borderWidth={1} p={32} m={2}  backgroundColor="#EEEEEE">
             <Text color="#176B87" as="h2" className="text-center pb-2 text-xl">Previdência social</Text>
                 <Text as="p" color="#176B87" p={2}>
-                Despesas empenhadas: <b>R$ {filteredResults[0]?.data[2].expanseCommitted.toFixed(2) || 0}</b>
+                Despesas empenhadas: <b>{filteredResults[0]?.data[2].expanseCommitted.toFixed(2) || 0} Reais</b>
                     </Text>
                 <Text as="p" color="#176B87" p={2}>
-                Despesas gastas: <b>R$ {filteredResults[0]?.data[2].expensePaid.toFixed(2) || 0}</b>
+                Despesas gastas: <b>{filteredResults[0]?.data[2].expensePaid.toFixed(2) || 0} Reais</b>
+
                     </Text>
             </Box>
         </Flex>
