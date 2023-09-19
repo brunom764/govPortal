@@ -1272,6 +1272,806 @@ export const values: ValuesType[] = [
             expensePaid: 2234864054.00 
            },],
     },
+    {
+        state: States.PR,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 701053977.99, 
+            expensePaid: 537760593.86 
+            },
+            {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 37454006.51, 
+            expensePaid: 36509466.61 
+            },
+            {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 51244599.82, 
+            expensePaid: 48616182.08 
+            }
+        ]
+    },
+    {
+        state: States.PR,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 752349323.00, 
+            expensePaid: 664682465.20 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 2040391.86, 
+            expensePaid: 1078712.42 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 66665411.11, 
+            expensePaid: 64410635.85 
+           }
+        ]
+    },
+    {
+        state: States.PR,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 854119269.70, 
+            expensePaid: 717114964.50 
+            },
+            {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 28436150.43, 
+            expensePaid: 10048375.31 
+            },
+            {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 99597572.70, 
+            expensePaid: 88407796.20 
+            }
+        ]
+    },
+    {
+        state: States.PR,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1208193721.00, 
+            expensePaid: 1065945256.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 79208988.22, 
+            expensePaid: 74571555.75 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 156336882.80, 
+            expensePaid: 123911427.20 
+           }
+        ]
+    },
+    {
+        state: States.RJ,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 5859503380.00, 
+            expensePaid: 3300882386.34 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 239513520.55, 
+            expensePaid: 207979201.17 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 21580168586.22, 
+            expensePaid: 20596450376.01 
+           }
+        ]
+    },
+    {
+        state: States.RJ,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 5529947790.60, 
+            expensePaid: 4866848552.10 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 179439462.21, 
+            expensePaid: 159522739.20 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 21506489689.61, 
+            expensePaid: 20445729102.15 
+           }
+        ]
+    },
+    {
+        state: States.RJ,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 6532498634.00, 
+            expensePaid: 6182337367.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 202096580.00, 
+            expensePaid: 194591587.90 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 23274360998.00, 
+            expensePaid: 22134235214.00 
+           }
+        ]
+    },
+    {
+        state: States.RJ,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 8271461533.00, 
+            expensePaid: 7573511301.00 
+            },
+            {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 857511869.30, 
+            expensePaid: 845915798.60 
+            },
+            {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 24151649139.00, 
+            expensePaid: 24045339274.00 
+            }
+        ]
+    },
+    {
+        state: States.RO,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1080541636.03, 
+            expensePaid: 990035268.87 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 32776516.20, 
+            expensePaid: 26946259.27 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 655312199.33, 
+            expensePaid: 654038098.89 
+           }
+        ]
+    },
+    {
+        state: States.RO,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1114959955.91, 
+            expensePaid: 978521967.04 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 20185957.96, 
+            expensePaid: 14397510.83 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 781383562.84, 
+            expensePaid: 781108840.87 
+           }
+        ]
+    },
+    {
+        state: States.RO,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1410203085.00, 
+            expensePaid: 1153960949.00 
+            },
+            {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 72541440.26, 
+            expensePaid: 61128814.18 
+            },
+            {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 714864546.60, 
+            expensePaid: 714650988.70 
+            }
+        ]
+    },
+    {
+        state: States.RO,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1730874744.00, 
+            expensePaid: 1287868180.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 65656550.67, 
+            expensePaid: 57286202.47 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 772343239.00, 
+            expensePaid: 771763899.70 
+           }
+        ]
+    },
+    {
+        state: States.RR,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 701053977.99, 
+            expensePaid: 537760593.86 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 37454006.51, 
+            expensePaid: 36509466.61 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 51244599.82, 
+            expensePaid: 48616182.08 
+           }
+        ]
+    },
+    {
+        state: States.RR,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 752349323.00, 
+            expensePaid: 664682465.20 
+            },
+            {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 2040391.86, 
+            expensePaid: 1078712.42 
+            },
+            {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 66665411.11, 
+            expensePaid: 64410635.85 
+            }
+        ]
+    },
+    {
+        state: States.RR,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 854119269.70, 
+            expensePaid: 717114964.50 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 28436150.43, 
+            expensePaid: 10048375.31 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 99597572.70, 
+            expensePaid: 88407796.20 
+           }
+        ]
+    },
+    {
+        state: States.RR,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1208193721.00, 
+            expensePaid: 1065945256.00 
+            },
+            {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 79208988.22, 
+            expensePaid: 74571555.75 
+            },
+            {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 156336882.80, 
+            expensePaid: 123911427.20 
+            }
+        ]
+    },
+    {
+        state: States.RN,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1569741459.58, 
+            expensePaid: 1302611282.10 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 156147957.71, 
+            expensePaid: 145026294.36 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 3092151864.17, 
+            expensePaid: 2903478341.33 
+           }
+        ]
+    },
+    {
+        state: States.RN,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1398041951.47, 
+            expensePaid: 1175247004.07 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 180734182.39, 
+            expensePaid: 167366110.71 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 4070963294.41, 
+            expensePaid: 3280611321.52 
+           }
+        ]
+    },
+    {
+        state: States.RN,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1784563562.00, 
+            expensePaid: 1490837956.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 140525664.90, 
+            expensePaid: 117683158.60 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 3928433908.00, 
+            expensePaid: 3770223522.00 
+           }
+        ]
+    },
+    {
+        state: States.RN,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1923669101.00, 
+            expensePaid: 1625734582.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 127160466.00, 
+            expensePaid: 104907882.90 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 4380222257.00, 
+            expensePaid: 4204817568.00 
+           }
+        ]
+    },
+    {
+        state: States.RS,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 5993546121.01, 
+            expensePaid: 5358808101.18 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 361231566.53, 
+            expensePaid: 329586193.31 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 15653571599.56, 
+            expensePaid: 14026344052.26 
+           }
+        ]
+    },
+    {
+        state: States.RS,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 6218991793.93, 
+            expensePaid: 5422211972.86 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 378006330.58, 
+            expensePaid: 348358557.76 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 16676237298.92, 
+            expensePaid: 14970786368.68 
+           }
+        ]
+    },
+    {
+        state: States.RS,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 7360989654.00, 
+            expensePaid: 6668896110.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 143577254.80, 
+            expensePaid: 126667835.00 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 17249771001.00, 
+            expensePaid: 16205436048.00 
+           }
+        ]
+    },
+    {
+        state: States.RS,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 8220146674.00, 
+            expensePaid: 7687626593.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 169014472.90, 
+            expensePaid: 145936969.10 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 17300601714.00, 
+            expensePaid: 17277903838.00 
+           }
+        ]
+    },
+    {
+        state: States.SC,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 3502278102.05, 
+            expensePaid: 3125045160.88 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 128972793.05, 
+            expensePaid: 121516461.38 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 6418447790.02, 
+            expensePaid: 6411399490.73 
+           }
+        ]
+    },
+    {
+        state: States.SC,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 3307615380.89, 
+            expensePaid: 3024097665.86 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 83184371.89, 
+            expensePaid: 78949231.50 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 6816703217.95, 
+            expensePaid: 6810398083.58 
+           }
+        ]
+    },
+    {
+        state: States.SC,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 4137309981.00, 
+            expensePaid: 3854876243.00 
+            },
+            {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 103170400.30, 
+            expensePaid: 102105194.10 
+            },
+            {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 7109683064.00, 
+            expensePaid: 7102152690.00 
+            }
+        ]
+    },
+    {
+        state: States.SC,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 4755585699.00, 
+            expensePaid: 4345225069.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 109408025.40, 
+            expensePaid: 108410817.50 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 7361850479.00, 
+            expensePaid: 7352460389.00 
+           }
+        ]
+    },
+    {
+        state: States.SE,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1153369062.50, 
+            expensePaid: 1147176532.35 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 80560203.32, 
+            expensePaid: 73833117.48 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 1890209088.40, 
+            expensePaid: 1889210533.88 
+           }
+        ]
+    },
+    {
+        state: States.SE,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1232791175.81, 
+            expensePaid: 1227983783.13 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 89073952.70, 
+            expensePaid: 76286158.76 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 2373510272.74, 
+            expensePaid: 2134317408.00 
+           }
+        ]
+    },
+    {
+        state: States.SE,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1520262949.00, 
+            expensePaid: 1513839240.00 
+            },
+            {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 96477146.19, 
+            expensePaid: 84101494.58 
+            },
+            {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 2378260131.00, 
+            expensePaid: 2325640166.00 
+            }
+        ]
+    },
+    {
+        state: States.SE,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1836869552.00, 
+            expensePaid: 1813126166.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 100222191.40, 
+            expensePaid: 89365783.18 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 2013804688.00, 
+            expensePaid: 2002811116.00 
+           }
+        ]
+    },
+    {
+        state: States.SP,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 24158817080.62, 
+            expensePaid: 22484945348.34 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 704847182.17, 
+            expensePaid: 611544870.80 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 36129046005.39, 
+            expensePaid: 33653023873.52 
+           }
+        ]
+    },
+    {
+        state: States.SP,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 25041212146.94, 
+            expensePaid: 23660041625.77 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 721608754.19, 
+            expensePaid: 606666736.93 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 38346985121.57, 
+            expensePaid: 35388379477.84 
+           }
+        ]
+    },
+    {
+        state: States.SP,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 28273223642.00, 
+            expensePaid: 26191595779.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 975420140.50, 
+            expensePaid: 818579352.20 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 44390091228.00, 
+            expensePaid: 38319579120.00 
+           }
+        ]
+    },
+    {
+        state: States.SP,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 29675416283.00, 
+            expensePaid: 26915728674.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 1184153575.00, 
+            expensePaid: 908180794.60 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 38511117965.00, 
+            expensePaid: 35472911257.00 
+           }
+        ]
+    },
+    {
+        state: States.TO,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1642252894.15, 
+            expensePaid: 1603834314.04 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 26823495.39, 
+            expensePaid: 25088692.22 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 1050247946.76, 
+            expensePaid: 1009934221.88 
+           }
+        ]
+    },
+    {
+        state: States.TO,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1738941256.32, 
+            expensePaid: 1625097487.67 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 31994589.71, 
+            expensePaid: 27969169.67 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 1236231628.84, 
+            expensePaid: 1198002593.31 
+           }
+        ]
+    },
+    {
+        state: States.TO,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1915077126.00, 
+            expensePaid: 1785715628.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 98919554.66, 
+            expensePaid: 86949695.48 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 1420013741.00, 
+            expensePaid: 1387471147.00 
+           }
+        ]
+    },
+    {
+        state: States.TO,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 2327422313.00, 
+            expensePaid: 2182958795.00 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 96307773.98, 
+            expensePaid: 82036706.80 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 1581411225.00, 
+            expensePaid: 1565905732.00 
+           }
+        ]
+    },
 
 
 ]
