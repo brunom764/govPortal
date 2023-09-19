@@ -21,7 +21,7 @@ export default function Result({data}: {data: FormValues}){
                 Despesas empenhadas: <b>R$ {filteredResults[0]?.data[0].expanseCommitted || 0}</b>
                 </Text>
                 <Text as="p" color="#176B87" p={2}>
-                Despesas gastas: <b>R$ {filteredResults[0]?.data[1].expensePaied || 0}</b>
+                Despesas gastas: <b>R$ {filteredResults[0]?.data[1].expensePaid || 0}</b>
                 </Text>
             </Box>
             <Box borderWidth={1} p={32} m={2} backgroundColor="#EEEEEE">
@@ -30,7 +30,7 @@ export default function Result({data}: {data: FormValues}){
                     Despesas empenhadas: <b>R$ {filteredResults[0]?.data[1].expanseCommitted || 0}</b>
                 </Text>
                 <Text as="p" color="#176B87" p={2}>
-                    Despesas gastas: <b>R$ {filteredResults[0]?.data[1].expensePaied || 0}</b>
+                    Despesas gastas: <b>R$ {filteredResults[0]?.data[1].expensePaid || 0}</b>
                     </Text>
             </Box>
             <Box borderWidth={1} p={32} m={2}  backgroundColor="#EEEEEE">
@@ -39,7 +39,7 @@ export default function Result({data}: {data: FormValues}){
                 Despesas empenhadas: <b>R$ {filteredResults[0]?.data[2].expanseCommitted || 0}</b>
                     </Text>
                 <Text as="p" color="#176B87" p={2}>
-                Despesas gastas: <b>R$ {filteredResults[0]?.data[2].expensePaied || 0}</b>
+                Despesas gastas: <b>R$ {filteredResults[0]?.data[2].expensePaid || 0}</b>
                     </Text>
             </Box>
         </Flex>
