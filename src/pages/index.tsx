@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <Box minH="100vh" backgroundColor="#053B50" p={8}>
-      <Heading fontSize="4rem" color="#64CCC5" className='text-center bg-black bg-opacity-50'
+      <Heading fontSize={{ base: "1.75rem", md: "2.5rem", lg: "4rem" }} color="#64CCC5" className='text-center bg-black bg-opacity-50'
        fontFamily="sans-serif" py={4}>
         CALCULADORA DE GASTOS PÚBLICOS
       </Heading>
