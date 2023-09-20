@@ -17,8 +17,9 @@ export default function Home() {
 
   return (
     <Box minH="100vh" backgroundColor="#053B50" p={8}>
-      <Heading fontSize="5rem" color="#64CCC5" className='text-center' fontFamily="sans-serif">
-        govPortal
+      <Heading fontSize="4rem" color="#64CCC5" className='text-center bg-black bg-opacity-50'
+       fontFamily="sans-serif" py={4}>
+        CALCULADORA DE GASTOS PÚBLICOS
       </Heading>
       <CalculatorForm onSubmitSuccessfully={onSubmitSuccessfully} dataInfo={dataInfo} setDataInfo={setDataInfo} />
     </Box>

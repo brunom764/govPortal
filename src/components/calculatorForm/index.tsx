@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import schema from "./schema";
 import { States, Years } from "@/utils/enums";
 import Result from "../Results";
+import { useState } from "react";
 
 export type FormValues = {
     state: States | string;
@@ -15,6 +16,7 @@ export default function CalculatorForm({onSubmitSuccessfully, dataInfo, setDataI
   {onSubmitSuccessfully: (data: FormValues) => void, 
     dataInfo: FormValues,
     setDataInfo: (data: FormValues) => void}){
+    const [isVisible, setIsVisible] = useState(false);
     const {
         register,
         handleSubmit,
@@ -26,6 +28,7 @@ export default function CalculatorForm({onSubmitSuccessfully, dataInfo, setDataI
       async function onSubmit(data: FormValues) {
         try {
           onSubmitSuccessfully(data);
+          setIsVisible(true);
         } catch (error) {
           setError("root", { message: (error as Error).message });
         }
@@ -33,7 +36,7 @@ export default function CalculatorForm({onSubmitSuccessfully, dataInfo, setDataI
 
     return (
       <>
-        <form onSubmit={handleSubmit(onSubmit)} className="flex justify-center flex-wrap">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex justify-center flex-wrap py-8">
             <FormControl isInvalid={!!errors.state} mb={8} mx={16}>
               <FormLabel fontSize="1.5rem">Estado</FormLabel>
               <Select placeholder="Escolha o estado"  className="text-black" h={32} {...register("state")}>
@@ -68,7 +71,7 @@ export default function CalculatorForm({onSubmitSuccessfully, dataInfo, setDataI
               Calcular
             </Button>
         </form>
-        <Result data={dataInfo} />
+        {isVisible && <Result data={dataInfo} />}
       </>
     )
 }
