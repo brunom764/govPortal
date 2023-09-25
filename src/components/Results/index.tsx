@@ -29,6 +29,11 @@ export default function Result({data}: {data: FormValues}){
                 <Text as="p" color="#176B87" py={2}>
                 Despesas pagas: <b>R$ {numeroFormatado(filteredResults[0]?.data[0].expensePaid) || 0}</b>
                 </Text>
+                <Text as="p" color="#176B87" py={2}>
+                Das despesas empenhadas,    
+                <b> {(filteredResults[0]?.data[0].expensePaid * 100 /  filteredResults[0]?.data[0].expanseCommitted).toFixed(2)}% </b>
+             foram pagas.
+                </Text>
             </Box>
             <Box borderWidth={1} p={32} m={2} backgroundColor="#EEEEEE">
                 <Text color="#176B87" as="h2" className="text-center pb-2 text-xl">Assistência social</Text>
@@ -40,6 +45,11 @@ export default function Result({data}: {data: FormValues}){
                     Despesas pagas: 
                     <b> R$ {numeroFormatado(filteredResults[0]?.data[1].expensePaid) || 0}</b>
                     </Text>
+                    <Text as="p" color="#176B87" py={2}>
+                Das despesas empenhadas,    
+                <b> {(filteredResults[0]?.data[1].expensePaid * 100 /  filteredResults[0]?.data[1].expanseCommitted).toFixed(2)}% </b>
+             foram pagas.
+                </Text>
             </Box>
             <Box borderWidth={1} p={32} m={2}  backgroundColor="#EEEEEE">
             <Text color="#176B87" as="h2" className="text-center pb-2 text-xl">Previdência social</Text>
@@ -51,6 +61,11 @@ export default function Result({data}: {data: FormValues}){
                 Despesas pagas: 
                 <b> R$ {numeroFormatado(filteredResults[0]?.data[2].expensePaid) || 0}</b>
                     </Text>
+                    <Text as="p" color="#176B87" py={2}>
+                Das despesas empenhadas,    
+                <b> {(filteredResults[0]?.data[2].expensePaid * 100 /  filteredResults[0]?.data[2].expanseCommitted).toFixed(2)}% </b>
+             foram pagas.
+                </Text>
             </Box>
         </Flex>
         </Box>
