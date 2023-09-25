@@ -1,4 +1,4 @@
-import { States, Years } from "./enums"
+import { States, Years, Regiao, Nacional, TodoAnos} from "./enums"
 
 export enum Sections {
     saude = "saude",
@@ -2072,6 +2072,124 @@ export const values: ValuesType[] = [
            }
         ]
     },
-
-
+    {
+        state: Nacional,
+        year: Years.Dezoito,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1, 
+            expensePaid:  1
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 1, 
+            expensePaid:  1
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 1, 
+            expensePaid:  1
+           }
+        ]
+    },
+    {
+        state: Nacional,
+        year: Years.Dezenove,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted:1 , 
+            expensePaid: 1
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 1, 
+            expensePaid: 1
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 1, 
+            expensePaid: 1
+           }
+        ]
+    },
+    {
+        state: Nacional,
+        year: Years.Vinte,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1, 
+            expensePaid: 1
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 1, 
+            expensePaid: 1
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 1, 
+            expensePaid:  1
+           }
+        ]
+    },
+    {
+        state: Nacional,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 1, 
+            expensePaid: 2 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted:1 , 
+            expensePaid:  1
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted:1 , 
+            expensePaid: 1
+           }
+        ]
+    },
+    {
+        state: Nacional,
+        year: TodoAnos,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 23, 
+            expensePaid: 21 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 963, 
+            expensePaid: 82
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 158100, 
+            expensePaid: 1565 
+           }
+        ]
+    },
+    {
+        state: Regiao.NE,
+        year: Years.VinteUm,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 23, 
+            expensePaid: 218
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 96, 
+            expensePaid: 8203
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 158, 
+            expensePaid: 1565
+           }
+        ]
+    },
 ]
