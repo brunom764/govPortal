@@ -1,4 +1,4 @@
-import { States, Years, Regiao, Nacional, TodoAnos} from "./enums"
+import { States, Years} from "./enums"
 
 export enum Sections {
     saude = "saude",
@@ -2073,122 +2073,42 @@ export const values: ValuesType[] = [
         ]
     },
     {
-        state: Nacional,
+        state: States.Nacional,
+        year: Years.TodoAnos,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 3835395262, 
+            expensePaid: 3753919189 
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 1206733197, 
+            expensePaid: 1200717762 
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 4257600641, 
+            expensePaid: 4253899253 
+           }
+        ]
+    },
+    {
+        state: States.NO,
         year: Years.Dezoito,
         data: [{
             section: Sections.saude,
-            expanseCommitted: 1, 
-            expensePaid:  1
+            expanseCommitted: 2327422313.00, 
+            expensePaid: 2182958795.00 
            },
            {
             section: Sections.assistenciaSocial,
-            expanseCommitted: 1, 
-            expensePaid:  1
+            expanseCommitted: 96307773.98, 
+            expensePaid: 82036706.80 
            },
            {
             section: Sections.previdenciaSocial,
-            expanseCommitted: 1, 
-            expensePaid:  1
-           }
-        ]
-    },
-    {
-        state: Nacional,
-        year: Years.Dezenove,
-        data: [{
-            section: Sections.saude,
-            expanseCommitted:1 , 
-            expensePaid: 1
-           },
-           {
-            section: Sections.assistenciaSocial,
-            expanseCommitted: 1, 
-            expensePaid: 1
-           },
-           {
-            section: Sections.previdenciaSocial,
-            expanseCommitted: 1, 
-            expensePaid: 1
-           }
-        ]
-    },
-    {
-        state: Nacional,
-        year: Years.Vinte,
-        data: [{
-            section: Sections.saude,
-            expanseCommitted: 1, 
-            expensePaid: 1
-           },
-           {
-            section: Sections.assistenciaSocial,
-            expanseCommitted: 1, 
-            expensePaid: 1
-           },
-           {
-            section: Sections.previdenciaSocial,
-            expanseCommitted: 1, 
-            expensePaid:  1
-           }
-        ]
-    },
-    {
-        state: Nacional,
-        year: Years.VinteUm,
-        data: [{
-            section: Sections.saude,
-            expanseCommitted: 1, 
-            expensePaid: 2 
-           },
-           {
-            section: Sections.assistenciaSocial,
-            expanseCommitted:1 , 
-            expensePaid:  1
-           },
-           {
-            section: Sections.previdenciaSocial,
-            expanseCommitted:1 , 
-            expensePaid: 1
-           }
-        ]
-    },
-    {
-        state: Nacional,
-        year: TodoAnos,
-        data: [{
-            section: Sections.saude,
-            expanseCommitted: 23, 
-            expensePaid: 21 
-           },
-           {
-            section: Sections.assistenciaSocial,
-            expanseCommitted: 963, 
-            expensePaid: 82
-           },
-           {
-            section: Sections.previdenciaSocial,
-            expanseCommitted: 158100, 
-            expensePaid: 1565 
-           }
-        ]
-    },
-    {
-        state: Regiao.NE,
-        year: Years.VinteUm,
-        data: [{
-            section: Sections.saude,
-            expanseCommitted: 23, 
-            expensePaid: 218
-           },
-           {
-            section: Sections.assistenciaSocial,
-            expanseCommitted: 96, 
-            expensePaid: 8203
-           },
-           {
-            section: Sections.previdenciaSocial,
-            expanseCommitted: 158, 
-            expensePaid: 1565
+            expanseCommitted: 1581411225.00, 
+            expensePaid: 1565905732.00 
            }
         ]
     },

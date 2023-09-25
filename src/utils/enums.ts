@@ -35,34 +35,22 @@ export enum States {
     RS = 'Rio Grande do Sul',
     SC = 'Santa Catarina',
     // estados da região Sul
+
+    NO = 'Norte',
+    NE = 'Nordeste',
+    CO = 'CentroOeste',
+    SD = 'Sudeste',
+    SU = 'Sul',
+
+    Nacional = 'todos'
 }
 
-
-const Norte: States[] = [States.AC, States.AM, States.AP, States.PA, States.RO, States.RR, States.TO];
-const Nordeste: States[] = [States.AL, States.BA, States.CE, States.MA, States.PB, States.PE, States.PI, States.RN, States.SE];
-const CentroOeste: States[] = [States.DF, States.GO, States.MT, States.MS];
-const Sudeste: States[] = [States.ES, States.MG, States.RJ, States.SP];
-const Sul: States[] = [States.PR, States.RS, States.SC];
-
-export const Regiao  = {
-    NE : Object.values(Nordeste) as string[],
-    NO : Object.values(Norte) as string[],
-    CO : Object.values(CentroOeste) as string[],
-    SD : Object.values(Sudeste) as string[],
-    SU : Object.values(Sul) as string[]
-}
-
-export const Nacional: any = {
-    AllStates : Object.values(States) as string[]
-}
 
 export enum Years {
     Dezoito = "2018",
     Dezenove = "2019",
     Vinte = "2020",
-    VinteUm = "2021"
+    VinteUm = "2021",
+    TodoAnos = 'todos'
 }
 
-export const TodoAnos: any = {
-    AllYears : Object.values(Years) as string[]
-}
