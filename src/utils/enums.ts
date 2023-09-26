@@ -1,4 +1,14 @@
 export enum States {
+
+    Nacional = 'Nacional',
+    
+    NO = 'Norte',
+    NE = 'Nordeste',
+    CO = 'Centro Oeste',
+    SD = 'Sudeste',
+    SU = 'Sul',
+
+
     AC = 'Acre',
     AM = 'Amazonas',
     AP = 'Amapá',
@@ -36,13 +46,6 @@ export enum States {
     SC = 'Santa Catarina',
     // estados da região Sul
 
-    NO = 'Norte',
-    NE = 'Nordeste',
-    CO = 'CentroOeste',
-    SD = 'Sudeste',
-    SU = 'Sul',
-
-    Nacional = 'todos'
 }
 
 
@@ -51,6 +54,6 @@ export enum Years {
     Dezenove = "2019",
     Vinte = "2020",
     VinteUm = "2021",
-    TodoAnos = 'todos'
+    TodoAnos = '2018-2021'
 }
 

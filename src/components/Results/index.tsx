@@ -24,10 +24,10 @@ export default function Result({data}: {data: FormValues}){
         <Box borderWidth={1} p={32} m={2} backgroundColor="#EEEEEE">
             <Text color="#176B87" as="h2" className="text-center pb-2 text-xl">Saúde</Text>
                 <Text as="p" color="#176B87" py={2}>
-                Despesas empenhadas: <b>R$ {numeroFormatado(filteredResults[0]?.data[0].expanseCommitted) || 0}</b>
+                Despesas empenhadas: <b>R$ {numeroFormatado(filteredResults[0]?.data[0].expanseCommitted || 0)}</b>
                 </Text>
                 <Text as="p" color="#176B87" py={2}>
-                Despesas pagas: <b>R$ {numeroFormatado(filteredResults[0]?.data[0].expensePaid) || 0}</b>
+                Despesas pagas: <b>R$ {numeroFormatado(filteredResults[0]?.data[0].expensePaid || 0)}</b>
                 </Text>
                 <Text as="p" color="#176B87" py={2}>
                 Das despesas empenhadas,    
@@ -39,11 +39,11 @@ export default function Result({data}: {data: FormValues}){
                 <Text color="#176B87" as="h2" className="text-center pb-2 text-xl">Assistência social</Text>
                 <Text as="p" color="#176B87" px={8} py={2}>
                     Despesas empenhadas: 
-                    <b> R$ {numeroFormatado(filteredResults[0]?.data[1].expanseCommitted) || 0}</b>
+                    <b> R$ {numeroFormatado(filteredResults[0]?.data[1].expanseCommitted || 0)}</b>
                 </Text>
                 <Text as="p" color="#176B87" px={8} py={2}>
                     Despesas pagas: 
-                    <b> R$ {numeroFormatado(filteredResults[0]?.data[1].expensePaid) || 0}</b>
+                    <b> R$ {numeroFormatado(filteredResults[0]?.data[1].expensePaid || 0)}</b>
                     </Text>
                     <Text as="p" color="#176B87" py={2}>
                 Das despesas empenhadas,    
@@ -55,11 +55,11 @@ export default function Result({data}: {data: FormValues}){
             <Text color="#176B87" as="h2" className="text-center pb-2 text-xl">Previdência social</Text>
                 <Text as="p" color="#176B87" px={4} py={2}>
                 Despesas empenhadas: 
-                <b> R$ {numeroFormatado(filteredResults[0]?.data[2].expanseCommitted) || 0}</b>
+                <b> R$ {numeroFormatado(filteredResults[0]?.data[2].expanseCommitted || 0)}</b>
                     </Text>
                 <Text as="p" color="#176B87" px={4} py={2}>
                 Despesas pagas: 
-                <b> R$ {numeroFormatado(filteredResults[0]?.data[2].expensePaid) || 0}</b>
+                <b> R$ {numeroFormatado(filteredResults[0]?.data[2].expensePaid || 0)}</b>
                     </Text>
                     <Text as="p" color="#176B87" py={2}>
                 Das despesas empenhadas,    

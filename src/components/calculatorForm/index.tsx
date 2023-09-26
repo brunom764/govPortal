@@ -38,8 +38,8 @@ export default function CalculatorForm({onSubmitSuccessfully, dataInfo, setDataI
       <>
         <form onSubmit={handleSubmit(onSubmit)} className="flex justify-center flex-wrap py-8">
             <FormControl isInvalid={!!errors.state} mb={8} mx={16}>
-              <FormLabel fontSize="1.5rem">Estado</FormLabel>
-              <Select placeholder="Escolha o estado"  className="text-black" h={32} {...register("state")}>
+              <FormLabel fontSize="1.5rem">Região</FormLabel>
+              <Select placeholder="Escolha a região"  className="text-black" h={32} {...register("state")}>
               {Object.values(States).map((state: States) => (
               <option key={state} value={state} >
                   {state}
@@ -50,8 +50,8 @@ export default function CalculatorForm({onSubmitSuccessfully, dataInfo, setDataI
             </FormControl>
 
             <FormControl isInvalid={!!errors.state} mb={8} mx={16}>
-              <FormLabel fontSize="1.5rem">Ano</FormLabel>
-              <Select placeholder="Escolha o ano"  h={32} className="text-black" {...register("year")}>
+              <FormLabel fontSize="1.5rem">Período</FormLabel>
+              <Select placeholder="Escolha o período"  h={32} className="text-black" {...register("year")}>
               {Object.values(Years).map((year: Years) => (
               <option key={year} value={year}>
                   {year}
