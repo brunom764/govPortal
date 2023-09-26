@@ -2194,6 +2194,46 @@ export const values: ValuesType[] = [
     },
     {
         state: States.NE,
+        year: Years.TodoAnos,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 24815569928.41, 
+            expensePaid: 23252379324.38
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 1440295648.34, 
+            expensePaid: 1335516404.93
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 29632693755.00, 
+            expensePaid: 28972328992.24
+           }
+        ]
+    },
+    {
+        state: States.NE,
+        year: Years.TodoAnos,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 117672440574.29, 
+            expensePaid: 110538145137.41
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 6938488409.63, 
+            expensePaid: 6332077204.63
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 133601623118.01, 
+            expensePaid: 130083643028.67
+           }
+        ]
+    },
+    {
+        state: States.NE,
         year: Years.Dezoito,
         data: [{
             section: Sections.saude,
@@ -2269,6 +2309,26 @@ export const values: ValuesType[] = [
             section: Sections.previdenciaSocial,
             expanseCommitted: 35871793082.00, 
             expensePaid: 35337876013.00
+           }
+        ]
+    },
+    {
+        state: States.CO,
+        year: Years.TodoAnos,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 48378283581.62, 
+            expensePaid: 42895452703.04
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 4011222980.06, 
+            expensePaid: 3664818441.33
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 65080364229.48, 
+            expensePaid: 62513789277.24
            }
         ]
     },
@@ -2354,6 +2414,26 @@ export const values: ValuesType[] = [
     },
     {
         state: States.SU,
+        year: Years.TodoAnos,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 66815728993.08, 
+            expensePaid: 59618409034.00
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 2465636211.31, 
+            expensePaid: 2085153427.69
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 136753209551.16, 
+            expensePaid: 132299697543.67
+           }
+        ]
+    },
+    {
+        state: States.SU,
         year: Years.Dezoito,
         data: [{
             section: Sections.saude,
@@ -2429,6 +2509,26 @@ export const values: ValuesType[] = [
             section: Sections.previdenciaSocial,
             expanseCommitted: 35971327594.00, 
             expensePaid: 35929490376.00
+           }
+        ]
+    },
+    {
+        state: States.SD,
+        year: Years.TodoAnos,
+        data: [{
+            section: Sections.saude,
+            expanseCommitted: 184507008175.56, 
+            expensePaid: 159411112395.93
+           },
+           {
+            section: Sections.assistenciaSocial,
+            expanseCommitted: 7267152771.85, 
+            expensePaid: 6350488271.57
+           },
+           {
+            section: Sections.previdenciaSocial,
+            expanseCommitted: 331636471483.97, 
+            expensePaid: 305876478615.50
            }
         ]
     },
