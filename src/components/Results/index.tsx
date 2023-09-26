@@ -1,14 +1,34 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 import { FormValues } from "../calculatorForm";
-import { ValuesType, values } from "@/utils/values";
+import { Sections, ValuesType, values } from "@/utils/values";
 import { States, Years } from "@/utils/enums";
 
 export default function Result({data}: {data: FormValues}){
 
     function filterValues(values: ValuesType[], targetState: States | string, targetYear: Years | string):
      ValuesType[] {
-        return values.filter((value) => value.state === targetState && value.year === targetYear);
-      }
+        if (targetYear != Years.TodoAnos) {
+            return values.filter((value) => value.state === targetState && value.year === targetYear);
+        }
+        const stateArray = values.filter((value) => value.state === targetState);
+        return  [{ state: targetState, 
+            year: targetYear,
+            data: [{
+                    section: Sections.saude,
+                    expanseCommitted: stateArray[0].data[0].expanseCommitted + stateArray[1].data[0].expanseCommitted + stateArray[2].data[0].expanseCommitted + stateArray[3].data[0].expanseCommitted,
+                    expensePaid: stateArray[0].data[0].expensePaid + stateArray[1].data[0].expensePaid + stateArray[2].data[0].expensePaid + stateArray[3].data[0].expensePaid,
+                    },{
+                    section: Sections.assistenciaSocial, 
+                    expanseCommitted: stateArray[0].data[1].expanseCommitted + stateArray[1].data[1].expanseCommitted + stateArray[2].data[1].expanseCommitted + stateArray[3].data[1].expanseCommitted,
+                    expensePaid: stateArray[0].data[1].expensePaid + stateArray[1].data[1].expensePaid + stateArray[2].data[1].expensePaid + stateArray[3].data[1].expensePaid,
+                    },{
+                    section: Sections.previdenciaSocial,
+                    expanseCommitted: stateArray[0].data[2].expanseCommitted + stateArray[1].data[2].expanseCommitted + stateArray[2].data[2].expanseCommitted + stateArray[3].data[2].expanseCommitted,
+                    expensePaid: stateArray[0].data[2].expensePaid + stateArray[1].data[2].expensePaid + stateArray[2].data[2].expensePaid + stateArray[3].data[2].expensePaid,
+                    },]
+            }]
+        }
+
     const filteredResults:ValuesType[] = filterValues(values, data.state, data.year)
     const numeroFormatado = (num: any) => {
         return num.toLocaleString('pt-BR', {
